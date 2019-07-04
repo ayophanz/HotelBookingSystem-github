@@ -1,0 +1,33 @@
+:not(.layout-fixed) .main-sidebar, 
+.border-bottom {
+	z-index: 0;
+}
+a:hover{
+	text-decoration: none !important;
+}
+@media (min-width: 992px) {
+	.sidebar-mini.sidebar-collapse .main-sidebar:hover {
+	    z-index: 2;
+	}
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active {
+    color: #ffffff;
+    background-color: #494e54;
+    border-radius: 0px !important;
+}
+.sidebar {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.callout.callout-info {
+    border-left-color: #3490dc;
+    border-radius: 0px;
+}
